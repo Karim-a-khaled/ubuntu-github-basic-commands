@@ -19,7 +19,6 @@ A quick cheat sheet of common Ubuntu terminal and Git/GitHub commands.
 | `rm` | Delete a file. | `rm file.txt` |
 | `rm -r` | Delete a directory recursively. | `rm -r old-project` |
 | `cat` | Display file contents. | `cat README.md` |
-| `less` | Read a file page by page. | `less README.md` |
 | `nano` | Edit a file in the terminal. | `nano README.md` |
 | `clear` | Clear the terminal. | `clear` |
 | `history` | Show previous commands. | `history` |
@@ -36,11 +35,8 @@ A quick cheat sheet of common Ubuntu terminal and Git/GitHub commands.
 | `find` | Find files or directories. | `find . -name "*.php"` |
 | `ps` | Show running processes. | `ps aux` |
 | `kill` | Stop a process. | `kill 1234` |
-| `df -h` | Show disk usage. | `df -h` |
-| `du -sh` | Show directory size. | `du -sh my-project` |
 | `curl` | Make an HTTP request. | `curl https://example.com` |
 | `wget` | Download a file. | `wget https://example.com/file.zip` |
-| `tar` | Create or extract archives. | `tar -xvf archive.tar` |
 
 ---
 
@@ -76,4 +72,3 @@ A quick cheat sheet of common Ubuntu terminal and Git/GitHub commands.
 | `git stash pop` | Restore stashed changes. | `git stash pop` |
 | `git reset` | Unstage or move HEAD. | `git reset HEAD file.php` |
 | `git revert` | Create a commit undoing another commit. | `git revert abc1234` |
-| `git tag` | Create or list tags. | `git tag v1.0.0` |
